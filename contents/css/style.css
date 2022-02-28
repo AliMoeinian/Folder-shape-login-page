@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(to left, #ff9999 0%, #cc0066 108%);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.login-container{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 190px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 0 6px 6px 6px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.59);
+}
+.login-container:hover{
+  cursor:pointer;
+}
+.login-container:before {
+    content: 'Login Page';
+    padding: 5px;
+    width: 20%;
+    height: 23px;
+    border-radius: 0 52px 0 0;
+    background-color: #ffffff;
+    position: absolute;
+    top: -32px;
+    left: 0px;
+}
+.input-container{
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+.inputs{
+    width:90%;
+    padding: 5px;
+    border: 0px;
+    /* background-color: #999999; */
+    background: linear-gradient(to right, #ffcc99 0%, #ffccff 100%);
+    border-radius: 3px;
+    box-shadow: 5px 5px #660066;
+}
+.inputs:hover{
+  cursor:pointer;
+}
+.inputs:focus{
+  background-color: white;
+  outline: none;
+  font-weight: bold;
+
+}
+.get-started{
+    background-color: rgb(148, 66, 255);
+    height: 60px;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+}
+.input-names{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 2px;
+}
+.text-shadow{
+  text-shadow: 2px 2px 5px #ff99ff;
+}
+.get-started-link{
+  text-decoration: none;
+  color: white;
+  font-size: 30px
+}
